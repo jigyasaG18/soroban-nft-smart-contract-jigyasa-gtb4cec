@@ -37,8 +37,7 @@ The Soroban NFT Smart Contract System aims to revolutionize digital asset owners
 
 ## Setup Environment
 
-Installation
-**Prerequisites**
+**Installation Prerequisites**
 - Ensure you have the Soroban SDK installed. You can install it by following the instructions [here](https://soroban.stellar.org/install.sh).
 - Familiarity with Rust programming language and the Stellar network is recommended.
 

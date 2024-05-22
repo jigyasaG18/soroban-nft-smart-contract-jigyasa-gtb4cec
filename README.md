@@ -4,13 +4,13 @@ This repository contains a modular implementation of a Non-Fungible Token (NFT) 
 
 ## Features 
 
--NFT Creation: Easily create new NFTs with unique attributes and metadata.
+**NFT Creation**: Easily create new NFTs with unique attributes and metadata.
 
--Token Management: Manage ownership and transfer of NFTs securely on the Stellar blockchain.
+**Token Management**: Manage ownership and transfer of NFTs securely on the Stellar blockchain.
 
--Metadata Support: Store and retrieve metadata associated with each NFT for additional context and information.
+**Metadata Support**: Store and retrieve metadata associated with each NFT for additional context and information.
 
--Open Source: The project is open source, allowing for community contributions and customization.
+**Open Source**: The project is open source, allowing for community contributions and customization.
 
 ## Description
 
@@ -45,16 +45,20 @@ Prerequisites
 Steps
 
 1. Clone this repository to your local machine.
+   
    git clone https://github.com/your-username/soroban-nft.git
 
 2. Navigate to the project directory.
+   
    cd soroban-nft
 
-3. Install dependencies and build the project.
+4. Install dependencies and build the project.
+   
    cargo install --locked
+   
    soroban build --target wasm32-unknown-unknown
   
-4. Once the project is built successfully, you can proceed with deploying the smart contracts to the Stellar blockchain.
+5. Once the project is built successfully, you can proceed with deploying the smart contracts to the Stellar blockchain.
 
 ## Usage
 

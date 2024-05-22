@@ -1,30 +1,55 @@
+# Soroban NFT Smart Contract System
 
-# 🚀 Stellar NFT Smart Contract System Overview 🚀
+This repository contains a modular implementation of a Non-Fungible Token (NFT) smart contract system designed for the Stellar network using the Soroban SDK. NFTs are unique digital assets that represent ownership or proof of authenticity of digital or physical items.
 
-This project implements a decentralized Non-Fungible Token (NFT) system on the Stellar network using the Soroban SDK. NFTs are managed through smart contracts, ensuring uniqueness, transparency, and secure ownership transfers.
+## Overview
 
-## Key Features
+The system consists of several Rust smart contracts, each handling specific functionalities related to NFTs. These contracts can be imported and composed to create custom NFT solutions with various features.
 
-- **NFT Creation:** Users can mint new NFTs with unique identifiers and associated metadata.
-- **Ownership Management:** Smart contracts handle ownership transfers and approvals, ensuring secure and transparent transactions.
-- **Event Logging:** The system logs events such as transfers, minting, burning, and approvals for auditing purposes.
-- **Metadata Management:** Metadata such as name, symbol, and URI associated with each NFT are stored securely on the blockchain.
+### Features
 
-## Prerequisites
+- **Modularity:** Contracts are designed to be modular, allowing developers to choose and compose functionalities according to their needs.
+- **ERC721 Standard:** The system follows the ERC721 standard, enabling interoperability with other platforms and applications.
+- **Transparency:** All contract actions and events are logged on the blockchain for transparency and auditability.
+- **Security:** Built-in functions ensure secure ownership management, preventing unauthorized transfers and ensuring tamper-proof records.
 
-- A Stellar Testnet account with some test XLM tokens.
-- Basic understanding of Rust programming and the Stellar network.
-- Soroban SDK installed ([https://soroban.stellar.org/install.sh](https://soroban.stellar.org/install.sh))
+## Installation
 
-## Steps to compile the contract
-- Setup soroban-cli following the steps mentioned on this page - https://soroban.stellar.org/docs/getting-started/setup
-- If you are a Windows user that wants to leverage Linux, please refer to this video as a guide - https://www.youtube.com/watch?v=PQA5_7m3OjQ&t=2s
-- After the setup and installation of soroban-cli, run the command soroban contract build.
-- After the code compilation, you will see a newly created folder named ‘target’ which contains the wasm executable.
+Follow these steps to install and deploy the Soroban NFT Smart Contract System:
+
+1. **Setup Soroban CLI:** Install the Soroban CLI by following the instructions [here](https://soroban.stellar.org/docs/getting-started/setup).
+
+2. **Clone Repository:** Clone this repository to your local machine using Git:
+   ```bash
+   git clone https://github.com/your_username/soroban-nft.git
+   ```
+
+3. **Install Dependencies:** Navigate to the cloned repository and install dependencies using Cargo:
+   ```bash
+   cd soroban-nft
+   cargo install --locked
+   ```
+
+4. **Build Contracts:** Build the smart contracts using Soroban CLI:
+   ```bash
+   soroban contract build
+   ```
+
+5. **Deploy Contracts:** Deploy the compiled contracts to the Stellar network using Soroban CLI. Refer to the contract-specific deployment instructions provided in each contract's documentation.
+
+6. **Interact with Contracts:** Once deployed, you can interact with the contracts using the provided interface functions. Use Soroban CLI or integrate with your application using the Stellar SDK.
 
 ## Usage
 
-- After successfully compiling the contract, you will find a newly created folder named **‘target’** containing the wasm executable.
-- Deploy the compiled smart contract to the Stellar network using Soroban.
-- Interact with the deployed contract using Stellar accounts to mint, transfer, and manage NFTs.
-- Monitor contract events for auditing and transparency purposes.
+- Refer to the contract-specific documentation and interface for detailed usage instructions and available functions.
+- Ensure you have sufficient test XLM tokens in your Stellar Testnet account for contract deployment and testing purposes.
+- Follow best practices for smart contract development and security to avoid potential vulnerabilities and risks.
+
+## Contributing
+
+Contributions to the Soroban NFT Smart Contract System are welcome! Feel free to open issues, submit pull requests, or suggest improvements.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+```

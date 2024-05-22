@@ -16,19 +16,11 @@ This project implements a decentralized Non-Fungible Token (NFT) system on the S
 - Basic understanding of Rust programming and the Stellar network.
 - Soroban SDK installed ([https://soroban.stellar.org/install.sh](https://soroban.stellar.org/install.sh))
 
-## Project Setup
-
-1. **Clone this repository.**
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   cargo install --locked
-   soroban build --target wasm32-unknown-unknown
-   ```
+## Steps to compile the contract
+- Setup soroban-cli following the steps mentioned on this page - https://soroban.stellar.org/docs/getting-started/setup
+- If you are a Windows user that wants to leverage Linux, please refer to this video as a guide - https://www.youtube.com/watch?v=PQA5_7m3OjQ&t=2s
+- After the setup and installation of soroban-cli, run the command soroban contract build.
+- After the code compilation, you will see a newly created folder named ‘target’ which contains the wasm executable.
 
 ## Usage
 

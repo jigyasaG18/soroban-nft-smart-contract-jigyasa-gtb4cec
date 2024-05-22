@@ -5,8 +5,11 @@ This repository contains a modular implementation of a Non-Fungible Token (NFT) 
 ## Features 
 
 -NFT Creation: Easily create new NFTs with unique attributes and metadata.
+
 -Token Management: Manage ownership and transfer of NFTs securely on the Stellar blockchain.
+
 -Metadata Support: Store and retrieve metadata associated with each NFT for additional context and information.
+
 -Open Source: The project is open source, allowing for community contributions and customization.
 
 ## Description

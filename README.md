@@ -1,4 +1,4 @@
-```markdown
+
 # Decentralized NFT System Smart Contract
 
 This project implements a decentralized Non-Fungible Token (NFT) system on the Stellar network using the Soroban SDK. NFTs are managed through smart contracts, ensuring uniqueness, transparency, and secure ownership transfers.

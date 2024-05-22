@@ -1,13 +1,24 @@
 # Soroban NFT Smart Contract System
+
 This repository contains a modular implementation of a Non-Fungible Token (NFT) smart contract system designed for the Stellar network using the Soroban SDK. NFTs are unique digital assets that represent ownership or proof of authenticity of digital or physical items.
 
+## Features 
+
+NFT Creation: Easily create new NFTs with unique attributes and metadata.
+Token Management: Manage ownership and transfer of NFTs securely on the Stellar blockchain.
+Metadata Support: Store and retrieve metadata associated with each NFT for additional context and information.
+Open Source: The project is open source, allowing for community contributions and customization.
+
 ## Description
+
 The Soroban NFT Smart Contract System is a comprehensive blockchain solution designed for the Stellar network. It facilitates the creation, management, and trading of Non-Fungible Tokens (NFTs), representing unique digital assets. With modular architecture and adherence to the ERC721 standard, developers can customize NFT functionalities to suit diverse use cases. The system ensures transparency, security, and interoperability, recording all token-related actions on the blockchain. Users can securely mint, transfer, and query token metadata, while administrators oversee system integrity and authentication. Deployable on Stellar's efficient network, this system empowers developers to create decentralized applications (dApps) for digital collectibles, gaming assets, real estate tokens, and more, fostering a vibrant NFT ecosystem.
 
 ## Vision
+
 The Soroban NFT Smart Contract System aims to revolutionize digital asset ownership and exchange on the Stellar blockchain. By providing a robust infrastructure for creating and managing Non-Fungible Tokens (NFTs), our project empowers developers to build innovative decentralized applications (dApps) across various industries. Through transparent, secure, and efficient tokenization of unique digital assets, we envision democratizing access to value and fostering new forms of digital ownership and collaboration. Ultimately, our goal is to catalyze the growth of a vibrant NFT ecosystem, driving innovation, creativity, and inclusivity in the blockchain space.
 
 ## Project Roadmap / Future Plans
+
 1. **Requirement Analysis**: Gather detailed requirements for the Soroban NFT Smart Contract System, including smart contract functions, variables, and features such as minting, transferring, and querying NFTs. Define the data structures for NFTs and user permissions.
 
 2. **Smart Contract Development**: Develop smart contract functionalities using the Stellar blockchain and Soroban SDK. Implement functions for minting NFTs, transferring ownership, querying NFT metadata, and managing user permissions. Ensure security, efficiency, and compliance with NFT standards.
